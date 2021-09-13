@@ -11,7 +11,7 @@ header{
 }
 
 input[type=text] {
-    margin-bottom: 10px;
+    height: 100%;
 }
 
 form{
@@ -20,13 +20,13 @@ form{
     flex: 1;    
     z-index: 1000;
     width: 200px;
-    height: 200px;
+    height: 250px;
     background: 'red';
     position: absolute;
     left: 0;
     top: 20vh;
     background: #a9999978;
-    min-height: 320px;
+    min-height: 350px;
     padding: 10px;
     
 
@@ -47,8 +47,8 @@ form{
 .form-group{
     padding-right: 0;
 }
-.top-form >label{
-    margin-left: 10px;
+.top-form label{
+    padding-left: 10px;
 }
 .top-form > p{
     display: flex;
@@ -57,13 +57,17 @@ form{
     flex-direction: row-reverse;
 }
 
-.bottom-form{
-   flex: 1;
-}
 
+
+.row{
+    margin-bottom: 20px;
+    height: 38px;
+}
 
 .bottom-form{
     justify-content: end;
     flex-direction: column;
     display: flex;
+    flex: 1;
+
 }
